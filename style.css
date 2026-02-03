@@ -1,0 +1,15 @@
+@import url(./about/style.css);
+@import url(./banner/style.css);
+@import url(./cta/style.css);
+@import url(./donateBlood/style.css);
+@import url(./footer/style.css);
+@import url(./services/style.css);
+@import url(./testimonial/style.css);
+@import url(./who/style.css);
+@import url(./whyUs/style.css);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
