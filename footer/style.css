@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 .footer {
   background: linear-gradient(135deg, #0f0f0f, #2b2b2b);
   color: #fff;
@@ -18,20 +22,14 @@
   gap: 40px;
 }
 
-.footer-col h2.logo {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
 .footer-col h3 {
+  color: #fff;
   margin-bottom: 15px;
-  font-size: 18px;
 }
 
 .footer-col p {
   font-size: 14px;
   line-height: 1.6;
-  color: #ddd;
 }
 
 .footer-col ul {
@@ -44,42 +42,52 @@
 
 .footer-col ul li a {
   text-decoration: none;
-  color: #ddd;
+  color: #ccc;
   font-size: 14px;
 }
 
 .footer-col ul li a:hover {
-  color: #ff4d4d;
+  color: #fff;
 }
 
 .social-icons {
-  display: flex;
-  gap: 15px;
   margin: 15px 0;
 }
 
 .social-icons a {
   color: #fff;
+  margin-right: 15px;
   font-size: 18px;
 }
 
-.social-icons a:hover {
-  color: #ff4d4d;
-}
-
-.donor-btn {
-  background: #b30000;
+.donate-btn {
+  font-weight: bold;
+  margin-top: 15px;
+  background: #b11212;
+  color: #fff;
   border: none;
   padding: 12px 18px;
-  color: #fff;
+  border-radius: 6px;
   font-size: 14px;
-  border-radius: 8px;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
 }
 
-.donor-btn:hover {
-  background: #e60000;
+.donate-btn i {
+  margin-right: 6px;
+}
+
+.donate-btn:hover {
+  background: #d41414;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #555;
+  margin: 40px 0 20px;
+}
+
+.footer .copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
 }
