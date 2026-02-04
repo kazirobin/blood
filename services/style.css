@@ -109,20 +109,21 @@ body {
 
 .step-content p {
   font-size: 14px;
+    
   color: #666;
   line-height: 1.6;
 }
 
 /* 7. Image Styling */
 .step-image {
-  flex: 0 0 350px;
-  display: flex;
-  justify-content: center;
+    flex: 0 0 350px;
+    display: flex;
+    justify-content: center;
 }
 
 .step-image img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* --- Responsive Design Start --- */

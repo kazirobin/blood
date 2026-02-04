@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: var(--var-text-dark);
+  background-color: var(--var-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.who__need {
+  max-width: 1000px;
+  padding-block: 40px;
+  margin: 0 auto;
+  color: red;
+  h1 {
+    text-align: center;
+    padding-block-end: 20px;
+  }
+  .content {
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    p {
+      max-width: 300px;
+      padding-inline-start: 20px;
+      padding-block: 20px;
+    }
+    img {
+      max-width: 400px;
+      display: block;
+    }
+  }
+}
+
+/* Mobile Responsive (481px - 767px) */
+@media (max-width: 767px) {
+  .who__need {
+    background-position: center;
+    background-size: contain;
+
+  }
+  .who__need .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      width: 100%;
+      text-align: center;
+      margin-inline: auto;
+    }
+  }
+  .content img {
+    width: 100%;
+  }
+}
+
+/* Small Mobile Responsive (320px - 480px) */
+@media (max-width: 480px) {
+  .content p {
+    position: relative;
+  }
+  .content img {
+    width: 100%;
+  }
+}
+
+

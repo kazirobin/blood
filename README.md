@@ -1,13 +1,14 @@
 # blood
-### 1.about--jubayer
-### 2.banner--jubayer
-### 3.cta--jubayer
+### 1.about--jubayer✔
+### 2.banner--jubayer ✔
+### 3.cta--jubayer ✔
 ### 4.donateBlood--sunny
-### 5.footer--robin
-### 6.services--robin
-### 7.testimonial--robin
+### 5.footer--robin ✔
+### 6.services--robin ✔
+### 7.testimonial--robin ✔
 ### 8.whyUs--sunny
 ### 9.who--sunny
+### 10.navbar--sunny ✔
 
 
 [Figma Original](https://www.figma.com/design/tEKNLAFABduPQoMJVXGptU/Untitled--Copy-?node-id=1-2470&t=utbpBcnnGpXrIfsr-1)

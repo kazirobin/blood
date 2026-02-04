@@ -1,104 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blood</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-<!-- nav for contact-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- nav for contact-->
 
-<!--   phone contact-->
-     <div class="contact__bar">
-         <div class="phone">
-             <a class="">
-                 <i class="fas fa-phone"></i>
-                 <span>123456789</span>
-             </a>
-         </div>
-<!--   email contact-->
-         <div class="email">
-             <i class="fas fa-envelope"></i>
-             <span>example@gmaile.com</span>
-         </div>
-     </div>
-<!--   nav bar-->
-<div class="nav_container no-scrollbar">
-    <div class="nav__bar">
+    <!--   phone contact-->
+    <div class="contact__bar">
+      <div class="phone">
+        <a class="">
+          <i class="fas fa-phone"></i>
+          <span>+977-9876587654</span>
+        </a>
+      </div>
+      <!--   email contact-->
+      <div class="email">
+        <i class="fas fa-envelope"></i>
+        <span>example@gmaile.com</span>
+      </div>
+    </div>
+    <!--   nav bar-->
+    <div class="nav_container no-scrollbar">
+      <div class="nav__bar">
         <!-- logo-->
         <div class="logo">
-            <a href="#home">
-                <img src="./img/logo.png" alt="logo"/>
-
-            </a>
+          <a href="#home">
+            <img src="./navbar/img/logo.png" alt="logo" />
+          </a>
         </div>
         <!-- menu --->
         <nav class="menu__bar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="../donateNow/donateNow.html" class="active">Dontate Now</a></li>
-                <li><a href="../requestBlood/requestBlood.html" class="active">Request Blood</a></li>
-            </ul>
-
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#service">Service</a></li>
+            <li>
+              <a href="../donateNow/donateNow.html" class="active"
+                >Dontate Now</a
+              >
+            </li>
+            <li>
+              <a href="../requestBlood/requestBlood.html" class="active"
+                >Request Blood</a
+              >
+            </li>
+          </ul>
         </nav>
         <!-- login section -->
         <div class="auth_btns">
-            <button class="log__btn">Login</button>
-            <button class="signup_btn">Signup</button>
+          <button class="log__btn">Login</button>
+          <button class="signup_btn">Signup</button>
         </div>
-<!--    hamburger menu-->
+        <!--    hamburger menu-->
         <div class="humberger__menu">
-            <i class="fas fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Sidebar Menu -->
-<div class="sidebar__menu">
-    <div class="sidebar__close">
+    <!-- Sidebar Menu -->
+    <div class="sidebar__menu">
+      <div class="sidebar__close">
         <i class="fas fa-times"></i>
-    </div>
-    <ul>
+      </div>
+      <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#service">Service</a></li>
         <li><a href="#donate">Donate Now</a></li>
         <li><a href="#request-blood">Request Blood</a></li>
-    </ul>
-    <div class="sidebar__auth">
+      </ul>
+      <div class="sidebar__auth">
         <button class="log__btn">Login</button>
         <button class="signup_btn">Signup</button>
+      </div>
     </div>
-</div>
 
-<!-- Sidebar Overlay -->
-<div class="sidebar__overlay"></div>
+    <!-- Sidebar Overlay -->
+    <div class="sidebar__overlay"></div>
 
- <!-- banner start  -->
-  <section>
-     <div class="container">
-      <div class="banner">
-        <div class="banner-text">
-          <p>In developing countries like NEPAL, patients’ families have the burden and stress of managing and transporting blood themselves.</p>
-          <h6>We are on a <span>mission to change</span> that.</h6>
-          <div class="btn">
-            <button>Donate Now</button>
-            <button>Request Blood</button>
+    <!-- banner start  -->
+    <section>
+      <div class="container">
+        <div class="banner">
+          <div class="banner-text">
+            <p>
+              In developing countries like NEPAL, patients’ families have the
+              burden and stress of managing and transporting blood themselves.
+            </p>
+            <h6>We are on a <span>mission to change</span> that.</h6>
+            <div class="btns">
+              <button>Donate Now</button>
+              <button>Request Blood</button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img src="./banner/images/banner.png" alt="" />
           </div>
         </div>
-        <div class="banner-img">
-          <img src="./banner/images/banner.png" alt="">
+      </div>
+    </section>
+    <!-- banner end  -->
+
+    <!-- about start  -->
+    <section>
+      <div class="title__container">
+        <div class="container">
+          <div class="title">
+            <h1>About Us</h1>
+            <p>Join the Lifesaving Mission</p>
+          </div>
         </div>
       </div>
-     </div>
-  </section>
- <!-- banner end  -->
+      <div class="details__about">
+        <div class="container">
+          <h1 class="details__title">Who We Are</h1>
 
-<!-- testimonial start  -->
-  <section class="testimonial">
+          <p>
+            Our platform makes blood donation and management simple and
+            efficient. Users can easily request blood or register as donors.
+            When a requested blood type is available, the request is approved
+            immediately, and the requester receives the required blood. If the
+            blood type is not available, our system automatically sends an alert
+            saying, “Requested blood is not available — please wait while we
+            search for donors.” At the same time, an alert is sent to all
+            previous donors of that blood group. Once a donor donates and the
+            blood is added to our blood bank, the requester instantly receives
+            an email or SMS notification that the requested blood type is now
+            available. This ensures faster response, better communication, and
+            timely help during emergencies.
+          </p>
+        </div>
+      </div>
+      <div class="details__about">
+        <div class="container">
+          <h1 class="details__title">Our Mission</h1>
+          <p>
+            Our mission is to make the blood donation and receiving process
+            faster, easier, and more efficient. We strive to build trust among
+            donors and recipients through transparency and reliability. Our goal
+            is to inspire and motivate people in our society to donate blood
+            regularly and save lives. Beyond just connecting donors and
+            recipients, we aim to build a compassionate community — a family
+            united by the spirit of giving and humanity.
+          </p>
+        </div>
+      </div>
+      <div class="details__about">
+        <div class="container">
+          <h1 class="details__title">Our Vision</h1>
+          <p>
+            To create a world where blood donation is seamless, reliable, and
+            life-saving, ensuring that no one suffers due to the unavailability
+            of blood. We envision a connected community where technology and
+            compassion work together to deliver timely help during emergencies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- testimonial start  -->
+    <section class="testimonial">
       <!-- code here  -->
       <div class="divider"></div>
       <div class="testimonial__title">
@@ -110,23 +183,14 @@
       </div>
       <div class="clip-path"></div>
       <div class="sliders">
-        <div class="slider slider__one">
-          <div class="title">
-            <div class="icon"></div>
-            <h1>Awareness Campaign Reached 10,000 People</h1>
-          </div>
-          <div class="details">
-            The response was overwhelming, showing the power of community
-            engagement.
-          </div>
-          <div class="sign">
-            <p class="name">Sujan Pandey</p>
-            <p class="position">Hotel Manager</p>
-          </div>
-        </div>
-        <div class="slider slider__two">
+        <i class="fa-solid fa-angle-left" id="left"></i>
+        <i class="fa-solid fa-angle-right" id="right"></i>
 
-          <div class="slider__two-left">
+        <div
+          class="slider"
+          style="background-image: url(./testimonial/img/sliders/left.png)"
+        >
+          <div class="text">
             <div class="title">
               <div class="icon"></div>
               <h1>Awareness Campaign Reached 10,000 People</h1>
@@ -137,17 +201,25 @@
             </div>
             <button>Watch Story</button>
           </div>
-          
-          <div class="slider__two-right">
-            <img src="./img/sliders/center-right.png" alt="">
-            <div class="sign">
-              <p class="name">Dr. Anya Sharma</p>
-              <p class="position"> the event organizer</p>
-            </div>
+          <div
+            class="img"
+            style="
+              background-image: url(./testimonial/img/sliders/center-right.png);
+            "
+          ></div>
+
+          <div class="sign">
+            <p class="name">Sujan Pandey</p>
+            <p class="position">Hotel Manager</p>
           </div>
         </div>
-        <div class="slider slider__three">
-                    <div class="title">
+
+        <div
+          class="slider active"
+          style="background-image: url(./testimonial/img/sliders/center.png)"
+        >
+          <div class="text">
+            <div class="title">
               <div class="icon"></div>
               <h1>Awareness Campaign Reached 10,000 People</h1>
             </div>
@@ -155,66 +227,223 @@
               The response was overwhelming, showing the power of community
               engagement.
             </div>
-            <div class="sign">
-              <p class="name">Sujan Pandey</p>
-              <p class="position">Hotel Manager</p>
+            <button>Watch Story</button>
+          </div>
+          <div
+            class="img"
+            style="
+              background-image: url(./testimonial/img/sliders/center-right.png);
+            "
+          ></div>
+
+          <div class="sign">
+            <p class="name">Sujan Pandey</p>
+            <p class="position">Hotel Manager</p>
+          </div>
+        </div>
+
+        <div
+          class="slider"
+          style="background-image: url(./testimonial/img/sliders/right.png)"
+        >
+          <div class="text">
+            <div class="title">
+              <div class="icon"></div>
+              <h1>Awareness Campaign Reached 10,000 People</h1>
             </div>
+            <div class="details">
+              The response was overwhelming, showing the power of community
+              engagement.
+            </div>
+            <button>Watch Story</button>
+          </div>
+          <div
+            class="img"
+            style="
+              background-image: url(./testimonial/img/sliders/center-right.png);
+            "
+          ></div>
+
+          <div class="sign">
+            <p class="name">Sujan Pandey</p>
+            <p class="position">Hotel Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="sliders__pointers">
+        <a href="#">
+          <div class="sliders__pointer">
+            <div
+              class="img"
+              style="background-image: url(./testimonial/img/sliders/left.png)"
+            >
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="text">
+              <h1>Subas Adhikari</h1>
+              <p>Hotel Manager</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="sliders__pointer">
+            <div
+              class="img"
+              style="background-image: url(./testimonial/img/sliders/left.png)"
+            >
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="text">
+              <h1>Subas Adhikari</h1>
+              <p>Hotel Manager</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="sliders__pointer active">
+            <div
+              class="img"
+              style="background-image: url(./testimonial/img/sliders/left.png)"
+            >
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="text">
+              <h1>Subas Adhikari</h1>
+              <p>Hotel Manager</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="sliders__pointer">
+            <div
+              class="img"
+              style="background-image: url(./testimonial/img/sliders/left.png)"
+            >
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="text">
+              <h1>Subas Adhikari</h1>
+              <p>Hotel Manager</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="sliders__pointer">
+            <div
+              class="img"
+              style="background-image: url(./testimonial/img/sliders/left.png)"
+            >
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="text">
+              <h1>Subas Adhikari</h1>
+              <p>Hotel Manager</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="sliders__radio-btns">
+        <div class="radio-btn"><span></span></div>
+        <div class="radio-btn"><span></span></div>
+        <div class="radio-btn active"><span></span></div>
+        <div class="radio-btn"><span></span></div>
+        <div class="radio-btn"><span></span></div>
+      </div>
+      <div class="testimonial__text">
+        <h1>What are you waiting for?</h1>
+        <div class="btns">
+          <button>Donate Now</button>
+          <button>Request Blood</button>
         </div>
       </div>
     </section>
-<!-- testimonial end  -->
- <!-- footer start  -->
-    <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-col">
-        <h3>Blood Connect</h3>
-        <p>
-          Saving lives, one drop at a time.<br />
-          Join our community of donors and make hope possible.
-        </p>
-      </div>
-      <div class="footer-col">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a>Home</a></li>
-          <li><a>About Us</a></li>
-          <li><a>How It Works</a></li>
-          <li><a>Donate Blood</a></li>
-          <li><a>Request Blood</a></li>
-          <li><a>Success Stories</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Contact</h3>
-        <p>Kathmandu, Nepal</p>
-        <p>+977-9823352753</p>
-        <p>info@bloodconnect.org</p>
-      </div>
-      <div class="footer-col">
-        <h3>Contact With Us</h3>
 
-        <div class="social-icons">
-          <a><i class="fab fa-facebook-f"></i></a>
-          <a><i class="fab fa-instagram"></i></a>
-          <a><i class="fab fa-twitter"></i></a>
-        </div>
+    <script src="./testimonial/testimonial.js"></script>
 
-        <button class="donate-btn">
-          <i class="fa-solid fa-droplet"></i>
-          Join as a Doner
-        </button>
+    <!-- testimonial end  -->
+     <!-- who need start -->
+        <section>
+    <div class="who__need">
+      <h1>Who needs your donation</h1>
+      <div class="content">
+        <p>Whether you choose to give blood your donation will save and improve the lives of people across Nepal.</p>
+        <img src="./who/img/who-need.png" alt="">
       </div>
-
     </div>
+  </section>
+     <!-- who need end  -->
+     <!-- cta start  -->
+       <section>
+    <!-- code here  -->
+     <div class="cta">
+      <div class="images">
+        <img src="./cta/img/❤️.png" alt="">
+        <img src="./cta/img/❤️.png" alt="">
+      </div>
+      <h1>Every Drop Can Save a Life</h1>
+      <p>Your small act of kindness can bring hope to someone in need. Become a donor today.”</p>
+      <button>
+        <i class="fa-solid fa-heart"></i>
+        <h2>Donate Now</h2>
+      </button>
+     </div>
+  </section>
+     <!-- cta end  -->
+    <!-- footer start  -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>Blood Connect</h3>
+          <p>
+            Saving lives, one drop at a time.<br />
+            Join our community of donors and make hope possible.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>How It Works</a></li>
+            <li><a>Donate Blood</a></li>
+            <li><a>Request Blood</a></li>
+            <li><a>Success Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <p>Kathmandu, Nepal</p>
+          <p>+977-9823352753</p>
+          <p>info@bloodconnect.org</p>
+        </div>
+        <div class="footer-col">
+          <h3>Contact With Us</h3>
 
-    <hr />
+          <div class="social-icons">
+            <a><i class="fab fa-facebook-f"></i></a>
+            <a><i class="fab fa-instagram"></i></a>
+            <a><i class="fab fa-twitter"></i></a>
+          </div>
 
-    <p class="copyright">
-      © 2025 BloodConnect. All Rights Reserved. Designed with ❤️ by Subas.
-    </p>
-  </footer>
- <!-- footer end -->
+          <button class="donate-btn">
+            <i class="fa-solid fa-droplet"></i>
+            Join as a Doner
+          </button>
+        </div>
+      </div>
 
- <script src="./navbar/nav.js"></script>
-</body>
+      <hr />
+
+      <p class="copyright">
+        © 2025 BloodConnect. All Rights Reserved. Designed with ❤️ by Subas.
+      </p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./navbar/nav.js"></script>
+  </body>
 </html>
