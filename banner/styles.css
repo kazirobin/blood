@@ -13,13 +13,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .banner .banner-text {
-  width: 362px;
+  width: 400px;
   font-size: 20px;
   color: #2b2d42;
   font-weight: 500;
   text-align: left;
+  .btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-block: 20px;
+  }
 }
 .banner .banner-text p {
   line-height: 40px;
@@ -30,7 +37,7 @@ body {
   font-weight: 800;
 }
 
-.banner .btn button {
+.banner .btns button {
   padding: 12px 24px;
   background-color: #e63946;
   border-radius: 10px;
@@ -40,5 +47,18 @@ body {
   line-height: 28px;
   font-weight: 800;
   cursor: pointer;
-  margin-top: 40px;
+}
+
+/* Tablet Responsive (768px - 968px) */
+@media (max-width: 968px) {
+  .container {
+    padding-inline: 20px;
+  }
+  .banner-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }

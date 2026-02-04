@@ -24,7 +24,6 @@ body {
   background-color: var(--var-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border: 1px solid red;
 }
 a {
   color: black;
@@ -37,6 +36,7 @@ a {
 }
 .testimonial__title {
   text-align: center;
+  padding-block-start: 30px;
   margin-block-end: -60px;
   z-index: 4;
   position: relative;
@@ -227,6 +227,7 @@ i.fa-angle-right {
   align-items: center;
   padding: 5px;
   background-color: #d9d9d9;
+  cursor: pointer;
 }
 .sliders__radio-btns .radio-btn.active span {
   width: 100%;
@@ -302,7 +303,14 @@ i.fa-angle-right {
 
 /* Mobile Responsive (481px - 767px) */
 @media (max-width: 767px) {
-  
+  .sliders__pointer .img {
+    height: 100px;
+    width: 110px;
+  }
+  .sliders__pointer.active .img {
+    height: 120px;
+    width: 130px;
+  }
 }
 
 /* Small Mobile Responsive (320px - 480px) */
