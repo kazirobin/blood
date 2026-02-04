@@ -21,48 +21,72 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.why__donate .title-1{
+.why__donate .title-1 {
   background-color: #fcebec;
-  
 }
-.title-1 .text-box{
+.title-1 .text-box {
   max-width: 1450px;
   margin: 0 auto;
   padding-block: 30px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  .text{
-   border: 1px solid;
+  .text {
+    border: 1px solid;
     text-align: center;
-    h1{
+    h1 {
       font-weight: 600;
       font-size: 35px;
       padding-block-end: 10px;
     }
-    p{
+    p {
       max-width: 250px;
       margin: 0 auto;
       line-height: 20px;
-      color: #6C757D;
+      color: #6c757d;
     }
- } 
+  }
 }
-.why__donate .content-box{
-  background-color: #E63946;
+.why__donate .content-box {
+  background-color: #e63946;
 }
-.content-box .content{
+.content-box .content {
   display: flex;
   gap: 50px;
   max-width: 1450px;
-  margin:0 auto;
+  margin: 0 auto;
   padding-block: 30px;
-  .img{
-    padding-inline: 30px;
+  .img {
+    padding-inline-end: 30px;
     flex: 1;
   }
-  .details{
+  .details {
     flex: 1;
-    padding-inline-end:40px ;
+    padding-inline-end: 190px;
+    color: #fcebec;
+  }
+}
+.details .title-2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  span{
+    color: #fffb00;
+  }
+}
+.details .detail{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-block-start: 40px;
+  padding-block-end: 30px;
+}
+.details button{
+  background-color: #e63946;
+  border: 0px;
+  cursor: pointer;
+  a{
+    color: #fffb00;
+    text-decoration: none;
   }
 }
