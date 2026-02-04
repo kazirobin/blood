@@ -7,6 +7,76 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<!-- nav for contact-->
+
+<!--   phone contact-->
+     <div class="contact__bar">
+         <div class="phone">
+             <a class="">
+                 <i class="fas fa-phone"></i>
+                 <span>123456789</span>
+             </a>
+         </div>
+<!--   email contact-->
+         <div class="email">
+             <i class="fas fa-envelope"></i>
+             <span>example@gmaile.com</span>
+         </div>
+     </div>
+<!--   nav bar-->
+<div class="nav_container no-scrollbar">
+    <div class="nav__bar">
+        <!-- logo-->
+        <div class="logo">
+            <a href="#home">
+                <img src="./img/logo.png" alt="logo"/>
+
+            </a>
+        </div>
+        <!-- menu --->
+        <nav class="menu__bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="../donateNow/donateNow.html" class="active">Dontate Now</a></li>
+                <li><a href="../requestBlood/requestBlood.html" class="active">Request Blood</a></li>
+            </ul>
+
+        </nav>
+        <!-- login section -->
+        <div class="auth_btns">
+            <button class="log__btn">Login</button>
+            <button class="signup_btn">Signup</button>
+        </div>
+<!--    hamburger menu-->
+        <div class="humberger__menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="sidebar__menu">
+    <div class="sidebar__close">
+        <i class="fas fa-times"></i>
+    </div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#donate">Donate Now</a></li>
+        <li><a href="#request-blood">Request Blood</a></li>
+    </ul>
+    <div class="sidebar__auth">
+        <button class="log__btn">Login</button>
+        <button class="signup_btn">Signup</button>
+    </div>
+</div>
+
+<!-- Sidebar Overlay -->
+<div class="sidebar__overlay"></div>
+
  <!-- banner start  -->
   <section>
      <div class="container">
@@ -144,5 +214,7 @@
     </p>
   </footer>
  <!-- footer end -->
+
+ <script src="./navbar/nav.js"></script>
 </body>
 </html>
