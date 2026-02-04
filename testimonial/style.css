@@ -145,8 +145,8 @@ i.fa-angle-right {
 .slider.active {
   position: relative;
   padding: 30px;
-  height: 380px;
-  flex: 2;
+  height: 450px;
+  flex:2;
   .img {
     display: block;
   }
@@ -278,6 +278,7 @@ i.fa-angle-right {
     }
     .slider.active{
       display: block;
+      height: 500px;
       .img{
         z-index:0;
       }
