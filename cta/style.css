@@ -54,7 +54,7 @@ body {
   text-align: center;
 }
 .cta button{
-   background-color: #e63946;
+  background-color: #e63946;
   border-radius: 10px;
   font-size: 20px;
   outline: 0px;
@@ -78,6 +78,29 @@ body {
     color: white;
   }
 }
-button {
- 
+
+
+/* Tablet Responsive (768px - 968px) */
+@media (max-width: 968px) {
+  .cta{
+    height: 450px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.cta h1{
+  font-size: 32px;
+}
+
+.cta p{
+  color: white;
+  max-width: 350px;
+}
+
+.cta button{
+  font-size: 14px;
+  padding-block: 10px;
+  padding-inline: 20px;
+}
+
 }
