@@ -8,6 +8,9 @@
 @import url(./who/style.css);
 @import url(./whyUs/style.css);
 
+@import url(./navbar/nav.css);
+@import url(./reuseableCss/style.css);
+
 * {
   box-sizing: border-box;
   padding: 0;
