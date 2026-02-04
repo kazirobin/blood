@@ -258,7 +258,8 @@ i.fa-angle-right {
   border-radius: 10px;
   color: white;
   font-size: 20px;
-  margin-block: 20px;
+  margin-block-start: 20px;
+  margin-block-end: 50px;
   outline: 0px;
   border: 0px;
   cursor: pointer;
@@ -311,14 +312,4 @@ i.fa-angle-right {
     height: 120px;
     width: 130px;
   }
-}
-
-/* Small Mobile Responsive (320px - 480px) */
-@media (max-width: 480px) {
-  
-}
-
-/* Extra Small Mobile (Below 320px) */
-@media (max-width: 319px) {
-  
 }
