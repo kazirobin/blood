@@ -1,0 +1,37 @@
+
+/*
+reuseable css for current project
+# if need to use this css in other project
+# otherwise pardon me
+
+*/
+.input___style {
+    width:100%;
+    background-color:#fce1e2 ;
+    border: none;
+    padding:0.5rem;
+    border-radius: 0.3rem;
+    outline:none;
+    margin:0.5rem 0;
+    font-weight: 600;
+    color:#6b757d
+
+}
+.input___style:focus{
+    border:1px solid lightgreen;
+}
+.big__btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.big__btn:hover{
+    background-color: #0b5ed7;
+    color: white;
+    transform: scale(1.1);
+}
