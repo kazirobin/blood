@@ -87,6 +87,15 @@ body {
     max-width: 750px;
     margin: 0 auto;
 }
+.cta .images{
+  width: 515px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 45px;
+  }
+}
 
 .cta h1{
   font-size: 32px;
@@ -101,6 +110,9 @@ body {
   font-size: 14px;
   padding-block: 10px;
   padding-inline: 20px;
+   i{
+    font-size: 14px;
+   }
 }
 
 }
