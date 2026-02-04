@@ -1,42 +1,64 @@
-body{
-     font-family: "Inter", sans-serif;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding-inline: 80px;
 }
-.banner{
-    text-align: center;
-    padding: 100px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.banner {
+  text-align: center;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 .banner .banner-text {
-   width: 362px;
-        font-size: 20px;
-        color: #2B2D42;
-        font-weight: 500;
-        text-align: left;
+  width: 400px;
+  font-size: 20px;
+  color: #2b2d42;
+  font-weight: 500;
+  text-align: left;
+  .btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-block: 20px;
+  }
 }
 .banner .banner-text p {
-   line-height: 40px;
-   letter-spacing: 0.1px; 
+  line-height: 40px;
+  letter-spacing: 0.1px;
 }
 .banner .banner-text span {
-    color: #E63946;
-    font-weight: 800;
+  color: #e63946;
+  font-weight: 800;
 }
 
-.banner .btn button {
-    padding: 12px 24px;
-    background-color: #E63946;
-    border-radius: 10px;
-    color: #fff;
-    border: none;
-    size: 24px;
-    line-height: 28px;
-    font-weight: 800;
-    cursor: pointer;
+.banner .btns button {
+  padding: 12px 24px;
+  background-color: #e63946;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  size: 24px;
+  line-height: 28px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+/* Tablet Responsive (768px - 968px) */
+@media (max-width: 968px) {
+  .container {
+    padding-inline: 20px;
+  }
+  .banner-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
