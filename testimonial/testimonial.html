@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testimonial</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <section class="testimonial">
@@ -19,23 +26,14 @@
       </div>
       <div class="clip-path"></div>
       <div class="sliders">
-        <div class="slider slider__one">
-          <div class="title">
-            <div class="icon"></div>
-            <h1>Awareness Campaign Reached 10,000 People</h1>
-          </div>
-          <div class="details">
-            The response was overwhelming, showing the power of community
-            engagement.
-          </div>
-          <div class="sign">
-            <p class="name">Sujan Pandey</p>
-            <p class="position">Hotel Manager</p>
-          </div>
-        </div>
-        <div class="slider slider__two">
+        <i class="fa-solid fa-angle-left"></i>
+        <i class="fa-solid fa-angle-right"></i>
 
-          <div class="slider__two-left">
+        <div
+          class="slider slider__one"
+          style="background-image: url(./img/sliders/left.png)"
+        >
+          <div class="text">
             <div class="title">
               <div class="icon"></div>
               <h1>Awareness Campaign Reached 10,000 People</h1>
@@ -46,17 +44,23 @@
             </div>
             <button>Watch Story</button>
           </div>
-          
-          <div class="slider__two-right">
-            <img src="./img/sliders/center-right.png" alt="">
-            <div class="sign">
-              <p class="name">Dr. Anya Sharma</p>
-              <p class="position"> the event organizer</p>
-            </div>
+          <div
+            class="img"
+            style="background-image: url(./img/sliders/center-right.png)"
+          ></div>
+
+          <div class="sign">
+            <p class="name">Sujan Pandey</p>
+            <p class="position">Hotel Manager</p>
           </div>
         </div>
-        <div class="slider slider__three">
-                    <div class="title">
+
+        <div
+          class="slider active slider__two"
+          style="background-image: url(./img/sliders/center.png)"
+        >
+          <div class="text">
+            <div class="title">
               <div class="icon"></div>
               <h1>Awareness Campaign Reached 10,000 People</h1>
             </div>
@@ -64,10 +68,51 @@
               The response was overwhelming, showing the power of community
               engagement.
             </div>
-            <div class="sign">
-              <p class="name">Sujan Pandey</p>
-              <p class="position">Hotel Manager</p>
+            <button>Watch Story</button>
+          </div>
+          <div
+            class="img"
+            style="background-image: url(./img/sliders/center-right.png)"
+          ></div>
+
+          <div class="sign">
+            <p class="name">Sujan Pandey</p>
+            <p class="position">Hotel Manager</p>
+          </div>
+        </div>
+
+        <div
+          class="slider slider__three"
+          style="background-image: url(./img/sliders/right.png)"
+        >
+          <div class="text">
+            <div class="title">
+              <div class="icon"></div>
+              <h1>Awareness Campaign Reached 10,000 People</h1>
             </div>
+            <div class="details">
+              The response was overwhelming, showing the power of community
+              engagement.
+            </div>
+            <button>Watch Story</button>
+          </div>
+          <div
+            class="img"
+            style="background-image: url(./img/sliders/center-right.png)"
+          ></div>
+
+          <div class="sign">
+            <p class="name">Sujan Pandey</p>
+            <p class="position">Hotel Manager</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="sliders__pointers">
+        <div class="sliders__pointer">
+          <div class="img" >
+            <i class="fa-solid fa-play"></i>
+          </div>
         </div>
       </div>
     </section>
