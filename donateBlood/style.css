@@ -28,11 +28,11 @@ body {
   max-width: 1450px;
   margin: 0 auto;
   padding-block: 30px;
+  padding-inline-start: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   .text {
-    border: 1px solid;
     text-align: center;
     h1 {
       font-weight: 600;
@@ -56,9 +56,14 @@ body {
   max-width: 1450px;
   margin: 0 auto;
   padding-block: 30px;
+  padding-inline-start: 20px;
   .img {
     padding-inline-end: 30px;
     flex: 1;
+    img{
+
+      width: 100%;
+    }
   }
   .details {
     flex: 1;
@@ -80,13 +85,82 @@ body {
   gap: 20px;
   padding-block-start: 40px;
   padding-block-end: 30px;
+  font-size: 18px;
 }
 .details button{
   background-color: #e63946;
   border: 0px;
   cursor: pointer;
   a{
+    font-size: 18px;
+    i{
+      font-size: 18px;
+
+    }
+    display: flex; 
+    gap: 10px;
     color: #fffb00;
     text-decoration: none;
   }
+}
+
+/* reason-container start */
+.reason-container{
+  background-color: #fcedd4;
+}
+.reasons{
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.reasons .title-3{
+  text-align: center;
+  color: #e63946;
+  padding-block: 40px;
+  font-size: 40px;
+}
+.reasons-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 40px;
+  ul{
+    flex: 1;
+    padding-inline-end: 30px;
+    li{
+      padding-block: 10px;
+      font-size: 20px;
+    }
+  }
+}
+/* reason-container end */
+/* Tablet Responsive (768px - 968px) */
+@media (max-width: 968px) {
+     .content-box .content{
+    flex-direction: column;
+    padding-inline: 20px;
+    .details{
+      padding: 0;
+    }
+  }
+  .reasons-list{
+    flex-direction: column;
+    padding-inline-start: 40px;
+  }
+  .reasons-list ul{
+    padding-inline-end: 10px;
+  }
+}
+
+/* Mobile Responsive (481px - 767px) */
+@media (max-width: 767px) {
+  
+}
+
+/* Small Mobile Responsive (320px - 480px) */
+@media (max-width: 480px) {
+  
+}
+
+/* Extra Small Mobile (Below 320px) */
+@media (max-width: 319px) {
+  
 }
