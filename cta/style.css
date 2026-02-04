@@ -116,3 +116,40 @@ body {
 }
 
 }
+
+/* mobile Responsive without website break (min 400px) */
+ @media (max-width: 500px) {
+  .cta{
+    height: 450px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.cta .images{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 45px;
+  }
+}
+
+.cta h1{
+  font-size: 30px;
+}
+
+.cta p{
+  color: white;
+  max-width: 350px;
+}
+
+.cta button{
+  font-size: 14px;
+  padding-block: 10px;
+  padding-inline: 20px;
+   i{
+    font-size: 14px;
+   }
+}
+
+} 
