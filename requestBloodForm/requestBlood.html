@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="requestBlood.css">
+  <title>Donate Now</title>
+</head>
+
+<body>
+  <section class="donate_form_container">
+    <div class="container">
+      <!-- form header-->
+      <div class="form__header">
+        <img src="./img/logo.png" />
+        <h2>Sign in an account</h2>
+        <div></div>
+      </div>
+      <!--form and other section-->
+      <div class="donate__form">
+        <div class="donate__login__section">
+          <h2>User information</h2>
+          <form class="blood__form_section">
+            <div class="form-inputs">
+              <div>
+                <label id="input-name">
+                  User name
+                </label>
+                <input type="text" id="name" name="name" placeholder="Name" class="input___style" />
+              </div>
+              <div>
+                <label id="input-gmail">
+                  Gmail
+                </label>
+                <input type="text" id="gmail" class="input___style" name="gmail" placeholder="Enter your Gmail" />
+              </div>
+            </div>
+            <div class="form-inputs">
+              <div>
+                <label id="">
+                  Contact number
+                </label>
+                <input type="phone" id="contact" name="contact" placeholder="++88" class="input___style" />
+              </div>
+              <div>
+                <label>
+                  Emergency number
+                </label>
+                <input type="text" id="emergency_contact" class="input___style" name="emergency_conact"
+                  placeholder="emergency:+88" />
+              </div>
+            </div>
+            <div class="form-inputs">
+              <div>
+                <label id="">
+                  Date of Birth
+                </label>
+                <input type="date" id="birth" name="birth" placeholder="" class="input___style" />
+              </div>
+              <div>
+                <label>
+                  Location
+                </label>
+                <input type="location" id="location" class="input___style" name="location"
+                  placeholder="Dhaka,Bangladesh" />
+              </div>
+            </div>
+            <div class="form-inputs">
+              <div>
+                <label id="">
+                  Sex
+                </label>
+                <select id="sex_field" name="contact" placeholder="++88" class="input___style">
+                  <option value="">Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div>
+                <label>
+                  Blood group
+                </label>
+                <select id="blood" name="blood" class="input___style">
+                  <option value="">your Blood Group</option>
+                  <option value="o">O+</option>
+                  <option value="a+">A+</option>
+                  <option value="ab">AB+</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-inputs">
+              <div>
+                <label id="">
+                  Password
+                </label>
+                <input type="password" id="password" name="password" class="input___style" placeholder="password" />
+              </div>
+              <div>
+                <label>
+                  Confirm Password
+                </label>
+                <input type="password" id="confirm__password" class="input___style" name="confirm-password"
+                  placeholder="confirm password" />
+              </div>
+            </div>
+            <!--      password secure section               -->
+            <div class="password_validation">
+              <h3>Excellent password - tour password is strong and secure</h3>
+
+              <div class="validation__progress">
+                <div class="progress_bar1"></div>
+                <div class="progress_bar2"></div>
+                <div class="progress_bar3"></div>
+
+              </div>
+
+            </div>
+            <!-- singup button  -->
+            <button class="big__btn">Sign up</button>
+            <div class="" style="text-align: center;font-size: 14px;margin-top: 10px">
+              <p class="already__account" style="font-weight: 500">Already have an account? <a href="#"
+                  style="color:red">Log in</a></p>
+            </div>
+          </form>
+        </div>
+        <div class="donate__second__section">
+          <button class="big__btn join_btn">Join Our Life-saving Mission</button>
+          <p style="font-size:13px;font-weight: 500;margin:0.6rem 1rem;text-align: center;color:#776666;">Become a part of
+            our growing community of heros who make blood available when its needed most.Sign up and start saving lives
+            today!</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6Ru-YCzhiXkMfGwsol5AbBasjUnb-5AkNQ&s"
+            class="" />
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+  <!--if need write js inside of file-->
+  <script src="requestBlood.js"></script>
+</body>
+
+</html>
