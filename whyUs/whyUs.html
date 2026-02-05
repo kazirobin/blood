@@ -1,54 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Why Us</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Why Us</title>
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+  </head>
+  <body>
+    <section class="why-choose-us">
+      <div class="container">
+        <div class="content-grid">
+          <!-- Feature cards -->
+          <div class="card-wrapper">
+            <header class="section-header">
+              <h2>Why Choose Us</h2>
+              <p>We make blood donation faster, safer, and smarter.</p>
+            </header>
+            <div class="features">
+              <div class="feature-card alert">
+                <img
+                  src="./icons/warning.svg"
+                  alt="Card 1"
+                />
+                <h3>Instant Blood Request Alerts</h3>
+                <p>
+                  When blood is unavailable, the system sends an “Empty Blood
+                  Alert”.
+                </p>
+              </div>
 
-  <section class="why-choose">
-  <div class="container">
+              <div class="feature-card realtime">
+                <img
+                  src="./icons/eye.svg"
+                  alt="Card 2"
+                />
+                <h3>Real-Time Availability Check</h3>
+                <p>
+                  Instantly check which blood groups are available and where.
+                </p>
+              </div>
 
-    <!-- LEFT CONTENT -->
-    <div class="left">
-      <h2>Why Choose Us</h2>
-      <p class="subtitle">We make blood donation faster, safer, and smarter.</p>
+              <div class="feature-card verified">
+                <img
+                  src="./icons/tik.svg"
+                  alt="Card 3"
+                />
+                <h3>Safe &amp; Verified Donor Profiles</h3>
+                <p>Every donor is verified to ensure safety and trust.</p>
+              </div>
 
-      <div class="cards">
-        <div class="card green">
-          <span class="icon">icon</span>
-          <h3>Instant Blood Request Alerts</h3>
-          <p>When blood is unavailable, the system sends an “Empty Blood Alert”.</p>
-        </div>
+              <div class="feature-card easy">
+                <img
+                  src="./icons/meter.svg"
+                  alt="Card 4"
+                />
+                <h3>Easy to Use, Anytime</h3>
+                <p>
+                  Request or donate blood in just a few clicks — available 24/7.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="card blue">
-          <span class="icon">icon</span>
-          <h3>Real-Time Availability Check</h3>
-          <p>Instantly check which blood groups are available and where.</p>
-        </div>
+          <!-- Stats -->
+          <div class="stats-wrapper">
+            <div class="stats-bg"></div>
 
-        <div class="card mint">
-          <span class="icon">icon</span>
-          <h3>Safe & Verified Donor Profiles</h3>
-          <p>Every donor is verified to ensure safety and trust.</p>
-        </div>
-
-        <div class="card lavender">
-          <span class="icon">icon</span>
-          <h3>Easy to Use, Anytime</h3>
-          <p>Request or donate blood in just a few clicks — available 24/7.</p>
+            <div class="stats">
+              <div class="stat-1st-col">
+                <div class="stat stat-middle stat-cards">
+                  <span class="number">2,034</span>
+                  <span class="label">Total donor</span>
+                </div>
+              </div>
+              <div class="stat-2nd-col">
+                <div class="stat stat-top stat-cards">
+                  <span class="number">111</span>
+                  <span class="label">Blood events organized</span>
+                </div>
+                <div class="stat stat-bottom stat-cards">
+                  <span class="number">1,982</span>
+                  <span class="label">Total requested</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- RIGHT STATS -->
-    <div class="right">
-        <img src="./images/whyusimg.png" alt="">
-    </div>
-  </div>
-</section>
-
-</body>
+    </section>
+  </body>
 </html>
