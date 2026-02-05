@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Open Graph meta tags for social media preview -->
+    <meta property="og:title" content="Blood Donate">
+    <meta property="og:description" content="A simple way to donate your blood.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/kazirobin/blood/refs/heads/main/preview.png">
+    <meta property="og:url" content="https://kazirobin.github.io/blood/">
+    <meta property="og:type" content="website">
     <title>Blood</title>
     <link rel="stylesheet" href="./style.css" />
     <!-- add fav icon -->
@@ -45,15 +51,15 @@
         <nav class="menu__bar">
           <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="./about/about.html">About Us</a></li>
-            <li><a href="./services//services.html">Service</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Service</a></li>
             <li>
               <a href="./donateNowForm/dontateNow.html" class="active"
                 >Dontate Now</a
               >
             </li>
             <li>
-              <a href="./requestBloodForm//requestBlood.html" class="active"
+              <a href="./requestBloodForm/requestBlood.html" class="active"
                 >Request Blood</a
               >
             </li>
@@ -62,10 +68,10 @@
         <!-- login section -->
         <div class="auth_btns">
         <button class="log__btn">
-          <a style="text-decoration: none;" href="./login/login.html">Login</a>
+          <a style="text-decoration: none;" href="#">Login</a>
         </button>
         <button class="signup_btn">
-          <a style="text-decoration: none; color:white" href="./register/register.html">Signup</a>
+          <a style="text-decoration: none; color:white" href="#">Signup</a>
         </button>
         </div>
         <!--    hamburger menu-->
@@ -101,7 +107,7 @@
     <div class="sidebar__overlay"></div>
 
     <!-- banner start  -->
-    <section>
+    <section id="home">
       <div class="container">
         <div class="banner">
           <div class="banner-text">
@@ -123,7 +129,7 @@
     </section>
     <!-- banner end  -->
     <!-- how it work / services start  -->
-    <section class="how-it-works">
+    <section class="how-it-works" id="services">
       <div class="header">
         <div class="header-content">
           <h1>How It Works</h1>
@@ -210,7 +216,7 @@
     </section>
     <!-- how it work / services end  -->
     <!-- about start  -->
-    <section>
+    <section id="about">
       <div class="title__container">
         <div class="container">
           <div class="title">
