@@ -32,7 +32,7 @@
 
 .donate__form {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns:1fr;
   place-items: center;
   gap: 2rem;
   margin-top: 2rem;
@@ -154,27 +154,11 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px){
   .donate__form {
-    display: grid
-  }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .donate__form {
-    display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
-
-  }
-
-  .form__header {
-    flex-direction: column;
-  }
-
-  .form__header h2 {
-    display: none;
   }
 }
+
 
 /* CSS */
