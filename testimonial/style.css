@@ -68,6 +68,7 @@ a {
   position: relative;
   padding-top: 65px;
   display: flex;
+
   flex: 1;
   flex-direction: column;
   justify-content: center;
@@ -119,10 +120,12 @@ i.fa-angle-right {
 .slider .title h1 {
   font-size: 20px;
   font-weight: 500;
+  margin-left: 30px;
 }
 .slider .details {
   color: #6c757d;
   padding-block: 10px;
+  margin-left: 30px;
 }
 
 .slider button {
@@ -133,6 +136,7 @@ i.fa-angle-right {
   color: white;
   font-size: 20px;
   margin-top: auto;
+  margin-left: 30px;
   outline: 0px;
   border: 0px;
   cursor: pointer;
@@ -146,9 +150,11 @@ i.fa-angle-right {
   position: relative;
   padding: 30px;
   height: 450px;
-  flex:2;
+  flex: 2;
   .img {
-    display: block;
+    display: flex;
+
+    margin-right: 30px;
   }
   button {
     display: block;
@@ -271,33 +277,33 @@ i.fa-angle-right {
 /* testimonial text section end */
 /* Tablet Responsive (768px - 968px) */
 @media (max-width: 1200px) {
-  .sliders{
+  .sliders {
     background: #000;
-    .slider{
+    .slider {
       display: none;
     }
-    .slider.active{
-      display: block;
-      height: 500px;
-      .img{
-        z-index:0;
-      }
-      .text{
-        z-index: 2;
-        position: relative;
-      }
-      .sign{
-        position: relative;
-        z-index: 2;
 
+    .slider.active {
+      display: flex;
+      height: 500px;
+      .img {
+        z-index: 0;
+      }
+      .text {
+        z-index: 2;
+        position: relative;
+      }
+      .sign {
+        position: relative;
+        z-index: 2;
+        margin-top: 80px;
       }
     }
   }
   .sliders__pointers a:first-child,
   .sliders__pointers a:last-child,
   .radio-btn:first-child,
-  .radio-btn:last-child
-  {
+  .radio-btn:last-child {
     display: none;
     border: 3px solid red;
   }
@@ -313,4 +319,43 @@ i.fa-angle-right {
     height: 120px;
     width: 130px;
   }
+
+  .slider.active {
+   
+ 
+    .img {
+      display: flex;
+      
+      margin-right: -50px;
+    }
+  }
+  .sign{
+       margin-left: 50px;
+
+
+      }
+}
+
+
+/* Mobile Responsive (481px - 767px) */
+@media (max-width: 600px) {
+
+
+  .slider.active {
+    .slider.img {
+      border: 4px solid red;
+      height: 500px;
+    }
+    .img {
+      display: flex;
+      /* border: 4px solid red; */
+   
+      margin-right: -50px;
+    }
+  }
+  .sign{
+       margin-left: 50px;
+
+
+      }
 }
