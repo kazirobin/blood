@@ -2,11 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- Open Graph meta tags for social media preview -->
+    <meta
+      property="og:title"
+      content="Blood Donate"
+    />
+    <meta
+      property="og:description"
+      content="A simple way to donate your blood."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/kazirobin/blood/refs/heads/main/preview.png"
+    />
+    <meta
+      property="og:url"
+      content="https://kazirobin.github.io/blood/"
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
     <title>Blood</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
     <!-- add fav icon -->
-    <link rel="icon" href="./navbar/img/logo.png"/>
+    <link
+      rel="icon"
+      href="./navbar/img/logo.png"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -17,8 +47,8 @@
   </head>
   <body>
     <!-- nav for contact-->
-
-    <!--   phone contact-->
+    <nav>
+      <!--   phone contact-->
     <div class="contact__bar">
       <div class="phone">
         <a class="">
@@ -38,7 +68,10 @@
         <!-- logo-->
         <div class="logo">
           <a href="#home">
-            <img src="./navbar/img/logo.png" alt="logo" />
+            <img
+              src="./navbar/img/logo.png"
+              alt="logo"
+            />
           </a>
         </div>
         <!-- menu --->
@@ -46,14 +79,18 @@
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#service">Service</a></li>
+            <li><a href="#services">Service</a></li>
             <li>
-              <a href="../donateNow/donateNow.html" class="active"
+              <a
+                href="./donateNowForm/dontateNow.html"
+                class="active"
                 >Dontate Now</a
               >
             </li>
             <li>
-              <a href="../requestBlood/requestBlood.html" class="active"
+              <a
+                href="./requestBloodForm/requestBlood.html"
+                class="active"
                 >Request Blood</a
               >
             </li>
@@ -61,8 +98,20 @@
         </nav>
         <!-- login section -->
         <div class="auth_btns">
-          <button class="log__btn">Login</button>
-          <button class="signup_btn">Signup</button>
+          <button class="log__btn">
+            <a
+              style="text-decoration: none"
+              href="#"
+              >Login</a
+            >
+          </button>
+          <button class="signup_btn">
+            <a
+              style="text-decoration: none; color: white"
+              href="#"
+              >Signup</a
+            >
+          </button>
         </div>
         <!--    hamburger menu-->
         <div class="humberger__menu">
@@ -78,22 +127,37 @@
       </div>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#service">Service</a></li>
-        <li><a href="#donate">Donate Now</a></li>
-        <li><a href="#request-blood">Request Blood</a></li>
+        <li><a href="./about/about.html">About Us</a></li>
+        <li><a href="./services/services.html">Service</a></li>
+        <li><a href="./donateNowForm/dontateNow.html">Donate Now</a></li>
+        <li>
+          <a href="./requestBloodForm/requestBlood.html">Request Blood</a>
+        </li>
       </ul>
       <div class="sidebar__auth">
-        <button class="log__btn">Login</button>
-        <button class="signup_btn">Signup</button>
+        <button class="log__btn">
+          <a
+            style="text-decoration: none"
+            href="./login/login.html"
+            >Login</a
+          >
+        </button>
+        <button class="signup_btn">
+          <a
+            style="text-decoration: none; color: white"
+            href="./register/register.html"
+            >Signup</a
+          >
+        </button>
       </div>
     </div>
 
     <!-- Sidebar Overlay -->
     <div class="sidebar__overlay"></div>
+    </nav>
 
     <!-- banner start  -->
-    <section>
+    <section id="home">
       <div class="container">
         <div class="banner">
           <div class="banner-text">
@@ -108,14 +172,20 @@
             </div>
           </div>
           <div class="banner-img">
-            <img src="./banner/images/banner.png" alt="" />
+            <img
+              src="./banner/images/banner.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
     <!-- banner end  -->
     <!-- how it work / services start  -->
-    <section class="how-it-works">
+    <section
+      class="how-it-works"
+      id="services"
+    >
       <div class="header">
         <div class="header-content">
           <h1>How It Works</h1>
@@ -132,7 +202,10 @@
         <div class="step-row">
           <div class="step-image">
             <div class="diamond-shape">
-              <img src="./img/Service1.png" alt="Register" />
+              <img
+                src="./img/Service1.png"
+                alt="Register"
+              />
             </div>
           </div>
           <div class="step-content">
@@ -150,7 +223,10 @@
         <div class="step-row reverse">
           <div class="step-image">
             <div class="diamond-shape">
-              <img src="https://i.ibb.co.com/DDgPDDHy/3rd.png" alt="Request" />
+              <img
+                src="https://i.ibb.co.com/DDgPDDHy/3rd.png"
+                alt="Request"
+              />
             </div>
           </div>
           <div class="step-content">
@@ -167,7 +243,10 @@
         <div class="step-row">
           <div class="step-image">
             <div class="diamond-shape">
-              <img src="https://i.ibb.co.com/qLVQ8414/4th.png" alt="Check" />
+              <img
+                src="https://i.ibb.co.com/qLVQ8414/4th.png"
+                alt="Check"
+              />
             </div>
           </div>
           <div class="step-content">
@@ -185,7 +264,10 @@
         <div class="step-row reverse">
           <div class="step-image">
             <div class="diamond-shape">
-              <img src="https://i.ibb.co.com/ycCZ60vf/five.png" alt="Alert" />
+              <img
+                src="https://i.ibb.co.com/ycCZ60vf/five.png"
+                alt="Alert"
+              />
             </div>
           </div>
           <div class="step-content">
@@ -201,8 +283,99 @@
       </div>
     </section>
     <!-- how it work / services end  -->
+    <!-- Why choose us start -->
+    <section class="why-choose-us">
+      <div class="container">
+        <div class="content-grid">
+          <!-- Feature cards -->
+          <div class="card-wrapper">
+            <header class="section-header">
+              <h2>Why Choose Us</h2>
+              <p>We make blood donation faster, safer, and smarter.</p>
+            </header>
+            <div class="features">
+              <div class="feature-card alert">
+                <img
+                  src="../blood/whyUs/icons/warning.svg"
+                  alt="Card 1"
+                  width="300"
+                  height="300"
+                />
+                <h3>Instant Blood Request Alerts</h3>
+                <p>
+                  When blood is unavailable, the system sends an “Empty Blood
+                  Alert”.
+                </p>
+              </div>
+
+              <div class="feature-card realtime">
+                <img
+                  src="../blood/whyUs/icons/eye.svg"
+                  alt="Card 2"
+                  width="300"
+                  height="300"
+                />
+                <h3>Real-Time Availability Check</h3>
+                <p>
+                  Instantly check which blood groups are available and where.
+                </p>
+              </div>
+
+              <div class="feature-card verified">
+                <img
+                  src="../blood/whyUs/icons/tik.svg"
+                  alt="Card 3"
+                  width="300px"
+                  height="300px"
+                />
+                <h3>Safe &amp; Verified Donor Profiles</h3>
+                <p>Every donor is verified to ensure safety and trust.</p>
+              </div>
+
+              <div class="feature-card easy">
+                <img
+                  src="../blood/whyUs/icons/meter.svg"
+                  alt="Card 4"
+                  width="300"
+                  height="300"
+                />
+                <h3>Easy to Use, Anytime</h3>
+                <p>
+                  Request or donate blood in just a few clicks — available 24/7.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats -->
+          <div class="stats-wrapper">
+            <div class="stats-bg"></div>
+
+            <div class="stats">
+              <div class="stat-1st-col">
+                <div class="stat stat-middle stat-cards">
+                  <span class="number">2,034</span>
+                  <span class="label">Total donor</span>
+                </div>
+              </div>
+              <div class="stat-2nd-col">
+                <div class="stat stat-top stat-cards">
+                  <span class="number">111</span>
+                  <span class="label">Blood events organized</span>
+                </div>
+                <div class="stat stat-bottom stat-cards">
+                  <span class="number">1,982</span>
+                  <span class="label">Total requested</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why choose us end ->
     <!-- about start  -->
-    <section>
+    <section id="about">
       <div class="title__container">
         <div class="container">
           <div class="title">
@@ -271,8 +444,14 @@
       </div>
       <div class="clip-path"></div>
       <div class="sliders">
-        <i class="fa-solid fa-angle-left" id="left"></i>
-        <i class="fa-solid fa-angle-right" id="right"></i>
+        <i
+          class="fa-solid fa-angle-left"
+          id="left"
+        ></i>
+        <i
+          class="fa-solid fa-angle-right"
+          id="right"
+        ></i>
 
         <div
           class="slider"
@@ -453,46 +632,47 @@
     <script src="./testimonial/testimonial.js"></script>
 
     <!-- testimonial end  -->
-     <!-- why donate section start  -->
-       <section>
+    <!-- why donate section start  -->
+    <section>
       <div class="why__donate">
         <div class="title-1">
           <div class="text-box">
             <div class="text">
-
-              
               <h1>Why Donate Blood</h1>
               <p>Your small act can give someone a second chance at life</p>
             </div>
           </div>
         </div>
         <div class="content-box">
-
           <div class="content">
             <div class="img">
-              <img src="./donateBlood/img/whyDonate.png" alt="" />
+              <img
+                src="./donateBlood/img/whyDonate.png"
+                alt=""
+              />
             </div>
             <div class="details">
               <h1 class="title-2">
                 Nepal needs over <span>5,000 donations</span> every week.
               </h1>
               <div class="detail">
-            <div class="text">
+                <div class="text">
                   <p>
-                  Regular weekly donations ensure blood available for are need.
-                </p>
-                <p>
-                  The gift of blood can only be given from one person to another,
-                  and there is no substitute. So it's nice to know Nepal can rely
-                  on everyday heroes' generosity to keep the flow of blood and
-                  plasma going.
-                </p>
-            </div>
+                    Regular weekly donations ensure blood available for are
+                    need.
+                  </p>
+                  <p>
+                    The gift of blood can only be given from one person to
+                    another, and there is no substitute. So it's nice to know
+                    Nepal can rely on everyday heroes' generosity to keep the
+                    flow of blood and plasma going.
+                  </p>
+                </div>
                 <p>
                   However, the need for blood and plasma is constant, so we're
                   looking for more lifesavers. By putting aside a small part of
-                  your day you can make a life-changing difference, you can become
-                  a lifesaver too!
+                  your day you can make a life-changing difference, you can
+                  become a lifesaver too!
                 </p>
               </div>
               <button>
@@ -500,45 +680,64 @@
                   <div class="icon">
                     <i class="fa-solid fa-arrow-right"></i>
                   </div>
-                <p>Become a Donar</p>
+                  <p>Become a Donar</p>
                 </a>
               </button>
             </div>
           </div>
         </div>
-     <div class="reason-container">
-         <div class="reasons">
-          <h1 class="title-3">Reasons to donate</h1>
-  <div class="reasons-list">
-            <ul>
-            <li>One blood donation can save up to 3 lives.</li>
-            <li>Make a difference in your community by helping others.</li>
-            <li>Pay it forward. One day whanau, friends or even you may need it.</li>
-         
-          </ul>
-          <ul>
-               <li>Join an extraordinary group of lifesavers.</li>
-            <li>Donating regularly ensures that a safe and plentiful supply of blood is available whenever and wherever it is needed.</li>
-            <li>Less than 4% of the eligible population in New Zealand are blood donors.</li>
-          </ul>
-  </div>
+        <div class="reason-container">
+          <div class="reasons">
+            <h1 class="title-3">Reasons to donate</h1>
+            <div class="reasons-list">
+              <ul>
+                <li>One blood donation can save up to 3 lives.</li>
+                <li>Make a difference in your community by helping others.</li>
+                <li>
+                  Pay it forward. One day whanau, friends or even you may need
+                  it.
+                </li>
+              </ul>
+              <ul>
+                <li>Join an extraordinary group of lifesavers.</li>
+                <li>
+                  Donating regularly ensures that a safe and plentiful supply of
+                  blood is available whenever and wherever it is needed.
+                </li>
+                <li>
+                  Less than 4% of the eligible population in New Zealand are
+                  blood donors.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-     </div>
       </div>
     </section>
-     <!-- why donate section end  -->
+    <!-- why donate section end  -->
     <!-- who need start -->
-    <section>
-      <div class="who__need">
+    <section id="who-needs-donation">
+      <!-- code here  -->
+      <header class="header-title">
         <h1>Who needs your donation</h1>
-        <div class="content">
+      </header>
+      <main class="content-wrapper">
+        <div class="who-first-col">
           <p>
-            Whether you choose to give blood your donation will save and improve
+            Whether you choose to give blood <br />
+            your donation will save and improve <br />
             the lives of people across Nepal.
           </p>
-          <img src="./who/img/who-need.png" alt="" />
         </div>
-      </div>
+        <div class="who-second-col">
+          <img
+            src="../blood/who/assets/who-img.png"
+            alt="who image"
+            width="500"
+            height="500"
+          />
+        </div>
+      </main>
     </section>
     <!-- who need end  -->
     <!-- cta start  -->
@@ -546,8 +745,14 @@
       <!-- code here  -->
       <div class="cta">
         <div class="images">
-          <img src="./cta/img/❤️.png" alt="" />
-          <img src="./cta/img/❤️.png" alt="" />
+          <img
+            src="./cta/img/❤️.png"
+            alt=""
+          />
+          <img
+            src="./cta/img/❤️.png"
+            alt=""
+          />
         </div>
         <h1>Every Drop Can Save a Life</h1>
         <p>
