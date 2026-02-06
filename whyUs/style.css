@@ -85,6 +85,11 @@ body {
   background: #fff;
 }
 
+.feature-card img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .feature-card h3 {
   margin: 0 0 0.5rem;
   font-size: 1.1rem;
