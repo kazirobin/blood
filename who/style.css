@@ -1,40 +1,6 @@
-:root {
-  --bg: #ffffff;
-  --text-dark: #1f2937;
-  --text-muted: #6b7280;
-
-  --green: #eaf6e3;
-  --blue: #e3f1fb;
-  --mint: #e3f7f4;
-  --lavender: #e6ecfb;
-
-  --stat-bg: #fde2e2;
-  --stat-text: #e11d48;
-}
-
-*,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
-  color: var(--text-dark);
-}
-
-section {
-  min-height: 100vh;
-  max-width: 75rem;
-  margin: 0 auto;
-  background: var(--bg);
-}
-
+@import url(../style.css);
 .header-title {
-  padding: 3rem;
+  padding-block: 20px;
 }
 .header-title h1 {
   color: red;
@@ -45,7 +11,9 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  margin-top: 3rem;
+}
+.header-title {
+  padding-block-start: 70px;
 }
 
 .who-first-col p {
@@ -58,7 +26,46 @@ section {
 }
 
 @media (max-width: 768px) {
+  .header-title {
+    padding-block-start: 0px;
+  }
   .content-wrapper {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 560px) {
+  .who-first-col img {
+    padding-inline: 0px;
+  }
+}
+.who-first-col img {
+  padding-inline: 70px;
+}
+/* Tablet Responsive (768px - 968px) */
+@media (max-width: 968px) {
+  .who-first-col img {
+  padding-inline: 70px;
+}
+}
+
+/* Mobile Responsive (481px - 767px) */
+@media (max-width: 767px) {
+   .who-first-col img {
+  padding-inline: 70px;
+}
+}
+
+/* Small Mobile Responsive (320px - 480px) */
+@media (max-width: 480px) {
+    .who-first-col img {
+    padding-inline: 0px;
+  }
+}
+
+/* Extra Small Mobile (Below 320px) */
+@media (max-width: 319px) {
+    .who-first-col img {
+    padding-inline: 0px;
   }
 }

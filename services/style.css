@@ -1,15 +1,5 @@
 /* --- Global Styles --- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #fcebed; /* Figma-r 10% opacity color */
-    color: #333;
-}
+@import url(../style.css);
 
 .how-it-works {
     max-width: 1100px;

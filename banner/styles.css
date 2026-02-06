@@ -1,12 +1,6 @@
-body {
-  font-family: "Inter", sans-serif;
-}
 
-.container {
-  max-width: 1450px;
-  margin: 0 auto;
-  padding-inline: 80px;
-}
+@import url(../style.css);
+
 .banner {
   text-align: center;
   padding: 10px 0px;
